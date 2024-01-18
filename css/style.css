@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+body {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: #1c2c40;
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 400;
+}
+
+input,
+textarea,
+select {
+  font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: #1c2c40;
+}
+
+a:hover,
+.submit:hover {
+  filter: alpha(opacity=85);
+  -moz-opacity: 0.85;
+  -khtml-opacity: 0.85;
+  opacity: 0.85;
+}
+
+.thumb {
+  display: block;
+}
+
+.thumb img {
+  display: block;
+  width: 100%;
+}
+
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: "Circular-Std-Regular", Arial;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
+}
+
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+@font-face {
+  font-family: "Circular-Std-Regular";
+  src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Regular.woff") format("woff");
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-style: normal;
+}
+::-moz-placeholder {
+  color: #d3cfcb;
+}
+::placeholder {
+  color: #d3cfcb;
+}
+
+#home {
+  background: url("../images/bg.png") no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+header .left {
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+header h1 {
+  margin-right: 30px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header ul li {
+  width: 150px;
+}
+header ul li a {
+  color: #dfdfdf;
+  font-size: 18px;
+}
+
+.right {
+  width: 20%;
+}
+.right a.button {
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  height: 45px;
+  background: #2dca73;
+  padding-top: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+.right a.button:hover {
+  transform: scale(1.1);
+}
+
+#spotlight {
+  color: #dfdfdf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#spotlight h1 {
+  font-weight: bold;
+  font-size: 65px;
+  padding-top: 100px;
+  text-align: center;
+}
+#spotlight p {
+  font-size: 24px;
+  text-align: center;
+}
+#spotlight form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  background: #dfdfdf;
+  width: 650px;
+  height: 70px;
+  border-radius: 9px;
+}
+#spotlight form input[type=text] {
+  width: 80%;
+  height: auto;
+  padding: 15px 30px;
+  margin-left: 10px;
+  border: 2px solid #2dca73;
+  border-radius: 8px;
+}
+#spotlight form ::-moz-placeholder {
+  color: #666;
+  font-size: 16px;
+}
+#spotlight form ::placeholder {
+  color: #666;
+  font-size: 16px;
+}
+#spotlight form input[type=submit] {
+  cursor: pointer;
+  float: right;
+  width: 15%;
+  height: 50px;
+  margin-right: 10px;
+  background: #2dca73;
+  border-radius: 8px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+#spotlight form input[type=submit]:hover {
+  transform: scale(1.1);
+}/*# sourceMappingURL=style.css.map */
